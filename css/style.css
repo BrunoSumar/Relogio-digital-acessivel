@@ -11,30 +11,33 @@ body {
 }
 
 .container {
-    background: red;
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: vertical;
     justify-content: space-evenly;
     align-items: center;
 }
 
-#cronometro {
-    background: blue;
+#menuNav {
+    position: fixed;
 }
-
 /* Display números */
 
 @font-face {
      font-family: helveticaneue;
      src: url('HelveticaNeueLTStd-UltLt.otf');
 }
-.display {
 
+.display {
+    background: red;
+    height: 40%;
+    width: 100%;
 }
 
 /* Configurações */
 
 .config {
-   
+    height: 50%;
+    width: 100%;
 }
