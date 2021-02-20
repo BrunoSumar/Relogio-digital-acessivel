@@ -16,6 +16,8 @@ git merge
 
 @IHC2020.2
 
-- Fazer os números fixados em 2 digitos
+# Metas
+
+- Deixar todas as fontes (menos dos números) do mesmo tamanho
 - Implementar a funcionalidade de aumentar e diminuir a fonte1
 
