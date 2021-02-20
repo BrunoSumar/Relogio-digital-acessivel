@@ -1,8 +1,7 @@
 const e_segundo = document.getElementById("exibir_segundos")
 const relogio = document.getElementById("rel");
-const body = document.body;
 
-var tempo; // Função que vai alternar quando a pertar botão de mostrar segundos ou não
+var tempo; // Função que vai alternar quando apertar botão de mostrar segundos ou não
 var segundo = true; // Indica se esta mostrando os segundos ou não
 
 var alterna_tempo = function () {
@@ -21,7 +20,7 @@ var alterna_tempo = function () {
     };
 };
 
-body.onload = alterna_tempo(); // É preciso chamar uma vez para iniciar a variavel tempo
+alterna_tempo(); // É preciso chamar uma vez para iniciar a variavel tempo
 
 e_segundo.onclick = alterna_tempo; // Quando clicar vai trocar a definição da função tempo
 
