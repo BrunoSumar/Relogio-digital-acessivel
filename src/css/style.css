@@ -1,11 +1,16 @@
-a:focus {
-    color: white;
-    background-color: black;
+*{
+    box-sizing: border-box;
 }
 
-button:focus {
+select:focus, a:focus, button:focus {
     color: white;
-    background-color:black;
+    background-color: black;
+    outline: none;
+    border-radius: 12px;
+}
+
+select, a, focus {
+    padding: 1%;
 }
 
 html {
@@ -14,7 +19,6 @@ html {
 
 body {
     padding: 0;
-    margin: 0;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 30px;
 }
@@ -30,8 +34,6 @@ body {
 }
 
 #menuNav {
-    position: fixed;
-    top: 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
