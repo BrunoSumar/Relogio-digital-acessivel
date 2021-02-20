@@ -4,17 +4,25 @@ const relogio = document.getElementById("rel");
 var tempo; // Função que vai alternar quando apertar botão de mostrar segundos ou não
 var segundo = true; // Indica se esta mostrando os segundos ou não
 
+function dd( digito ) { // Retorna o mesmo número porém com dois digitos caso seja 0-9
+    if (digito.toString().length == 1) {
+	return ('0' + digito.toString());
+    } else {
+	return (digito.toString());
+    }
+}
+
 var alterna_tempo = function () {
     if (segundo == true) {
 	tempo = function () { // Retorna o tempo com segundos
 	    var d = new Date();
-	    return (d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds())
+	    return (dd(d.getHours()) + ":" + dd(d.getMinutes()) + ":" + dd(d.getSeconds()))
 	};
 	segundo = false;
     } else {
 	tempo = function () { // Retorna o tempo sem segundos
 	    var d = new Date();
-	    return (d.getHours() + ":" + d.getMinutes())
+	    return (dd(d.getHours()) + ":" + dd(d.getMinutes()))
 	}
 	segundo = true;
     };

@@ -14,14 +14,23 @@ var segAtual;
 
 var interval;
 
+/* Para deixar todos os números com 2 digitos */
+function dd( digito ) {
+    if (digito.toString().length == 1) {
+	return ('0' + digito.toString());
+    } else {
+	return (digito.toString());
+    }
+}
+
 /*de 0 a 60 minutos*/
 for (var i = 0; i<= 60; i++) {
-	minutos.innerHTML+='<option value="'+i+'">'+i+'</option>';
+    minutos.innerHTML+='<option value="'+dd(i)+'">'+dd(i)+'</option>';
 }
 
 /*de 0 a 60 segundos*/
 for (var i = 0; i<= 60; i++) {
-	segundos.innerHTML+='<option value="'+i+'">'+i+'</option>';
+    segundos.innerHTML+='<option value="'+dd(i)+'">'+dd(i)+'</option>';
 }
 
 /*Evento do botao start*/
@@ -45,6 +54,6 @@ start.addEventListener('click',function(){
 			}
 		}
 
-	   display.childNodes[1].innerHTML = minAtual+":"+segAtual;
+	    display.childNodes[1].innerHTML = dd(minAtual)+":"+dd(segAtual);
 	},1000);
 })
