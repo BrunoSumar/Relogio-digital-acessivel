@@ -27,8 +27,8 @@ body {
 /* Display números */
 
 @font-face {
-  font-family: myFirstFont;
-  src: url('DS-DIGI.ttf') format('truetype');
+     font-family: fonteTeste;
+     src: url('../src/assets/fonts/HelveticaNeueLTStd-UltLt.otf');
 }
 
 .display {
@@ -38,7 +38,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: myFirstFont;
+    font-family: fonteTeste;
 }
 
 
