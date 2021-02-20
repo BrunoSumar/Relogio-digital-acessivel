@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="shortcut icon" href="../src/img/favicon.ico" />
 </head>
 
 <body id="topo">
@@ -46,19 +47,35 @@
     </div>
     <div id="temporizador" class="container">
         <h2>Temporizador</h2>
-        <div class="display"></div>
+        <div class="display">
+            <div id="display">
+                <span>0:00</span>
+            </div>
+        </div>
         <hr>
         <div class="config">
-            <form>
+            <!--tempo-->
+            <!--TODO-->
+                <!--transformar a combobox em button para praticidade ao temporizador-->
+            Minutos:
+            <select id="minutos" name="minutos"></select>
+    
+            Segundos:
+            <select id="segundos" name="segundos"></select>
 
-
-            </form>
-
+             <!--botao de iniciar-->
+            <button id="start">Start</button>
+    
+            <!--display do tempo-->
+            <br><br>
             <a href="#topo">Voltar ao inicio.</a>
+
+            <script src="../src/js/temporizador.js"></script>
         </div>
     </div>
 </body>
 <script src="../src/js/relogio.js"></script>
 <script src="../src/js/cronometro.js"></script>
+
 
 </html>
