@@ -1,0 +1,17 @@
+const estilo_html = document.getElementByTag("html").style
+const inc_font = document.getElementById("inc_font")
+const dec_font = document.getElementById("dec_font")
+
+function increase_font(){
+    var atual = estilo_html.font-size.toInt();
+    estilo_html.font-size = atual++;
+}
+
+function decrese_font(){
+    var atual = estilo_html.font-size.toInt();
+    estilo_html.font-size = atual--;
+}
+
+dec_font.onclick = decrease_font;
+inc_font.onclick = increase_font;
+    
