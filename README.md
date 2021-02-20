@@ -14,3 +14,4 @@ git add -A
 git pull
 git commit -m "base html"
 git push
+git status -s
