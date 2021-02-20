@@ -28,7 +28,7 @@ body {
 
 @font-face {
      font-family: fonteTeste;
-     src: url('../src/assets/fonts/HelveticaNeueLTStd-UltLt.otf');
+     src: url('../src/assets/fonts/digital-7.ttf') format('truetype');
 }
 
 .display {
