@@ -12,4 +12,6 @@ git commit -m "base html"
 git pull
 git push
 git status -s
+git merge
+
 @IHC2020.2
