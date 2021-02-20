@@ -18,6 +18,5 @@ git merge
 
 # Metas
 
-- Deixar todas as fontes (menos dos números) do mesmo tamanho
 - Implementar a funcionalidade de aumentar e diminuir a fonte1
 

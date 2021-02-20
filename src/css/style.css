@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-size: 30px;
+    font-size: 1.4rem;
 }
 
 select:focus, a:focus, button:focus {
@@ -16,6 +16,7 @@ select, a, button {
 
 html {
     scroll-behavior: smooth;
+    font-size: 50px;
 }
 
 body {
