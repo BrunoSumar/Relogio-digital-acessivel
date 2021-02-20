@@ -1,4 +1,12 @@
+a:focus {
+    color: white;
+    background-color: black;
+}
 
+button:focus {
+    color: white;
+    background-color:black;
+}
 
 html {
     scroll-behavior: smooth;
