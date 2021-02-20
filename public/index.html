@@ -1,39 +1,43 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Relógio acessível</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../src/css/style.css">
-    </head>
-    <body>
-        <div id="menuNav">
-            menu acessibilidade
-            <a href="#relogio">link relogio</a>
-            <a href="#cronometro">link cronometro</a>
-            <a href="#temporizador">link temporizador</a>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Relógio acessível</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../src/css/style.css">
+</head>
+
+<body>
+    <div id="menuNav">
+        menu acessibilidade
+        <a href="#relogio">link relogio</a>
+        <a href="#cronometro">link cronometro</a>
+        <a href="#temporizador">link temporizador</a>
+    </div>
+    <div id="relogio" class="container">
+        <h2>Relógio</h2>
+        <div class="display">
+            <span id="rel">11 : 00</span>
         </div>
-        <div id="relogio" class="container">
-            <h2>Relógio</h2>
-            <div class="display">
-                <span id="rel">11 : 00</span>
-            </div>
+        <hr>
+        <div class="config">
+            <button>Fuso horario</button>
+            <button>Exibir segundos</button>
+        </div>
+    </div>
+    <div id="cronometro" class="container">
+        <h2>Cronometro</h2>
+        <div class="display">
+            </pdiv>
             <hr>
             <div class="config">
-                <button>Fuso horario</button>
-                <button>Exibir segundos</button>
-            </div>
-        </div>
-        <div id="cronometro" class="container">
-            <h2>Cronometro</h2>
-            <div class="display"></pdiv>
-            <hr>
-            <div class="config">
-                <button>Iniciar</button>
-                <button>Pausar</button>
-                <button>Resetar</button>
+                <p class="clock"></p>
+                <button class="iniciar">Iniciar</button>
+                <button class="parar">Parar</button>
+                <button class="zerar">Zerar</button>
             </div>
         </div>
         <div id="temporizador" class="container">
@@ -48,6 +52,8 @@
 
             </div>
         </div>
-    </body>
-    <script src="../js/relogio.js"></script>
+</body>
+<script src="../src/js/relogio.js"></script>
+<script src="../src/js/cronometro.js"></script>
+
 </html>
