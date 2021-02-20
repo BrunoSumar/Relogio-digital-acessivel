@@ -18,12 +18,20 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 5%;
 }
 
 #menuNav {
     position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background: green;
+    width: 100%;
+    padding: 1%;
 }
+
 /* Display números */
 
 @font-face {
@@ -41,7 +49,9 @@ body {
     font-family: fonteTeste;
 }
 
-
+.display span {
+    font-size: 5em;
+}
 /* Configurações */
 
 .config {

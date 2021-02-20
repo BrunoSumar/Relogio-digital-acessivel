@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="../src/css/style.css">
 </head>
 
-<body>
+<body id="topo">
     <div id="menuNav">
         menu acessibilidade
         <a href="#relogio">link relogio</a>
         <a href="#cronometro">link cronometro</a>
         <a href="#temporizador">link temporizador</a>
+        <a href="#">Aumentar fonte</a>
+        <a href="#">Diminuir fonte</a>
+        <a href="#">Alto contraste</a>
     </div>
     <div id="relogio" class="container">
         <h2>Relógio</h2>
@@ -26,17 +29,19 @@
         <div class="config">
             <button>Fuso horario</button>
             <button id="exibir_segundos">Exibir segundos</button>
+            <a href="#topo">Voltar ao inicio.</a>
         </div>
     </div>
     <div id="cronometro" class="container">
         <h2>Cronometro</h2>
         <div class="display">
-            <p class="clock"></p>
+            <span class="clock"></span>
         </div>
         <div class="config">
             <button class="iniciar">Iniciar</button>
             <button class="parar">Parar</button>
             <button class="zerar">Zerar</button>
+            <a href="#topo">Voltar ao inicio.</a>
         </div>
     </div>
     <div id="temporizador" class="container">
@@ -49,6 +54,7 @@
 
             </form>
 
+            <a href="#topo">Voltar ao inicio.</a>
         </div>
     </div>
 </body>
