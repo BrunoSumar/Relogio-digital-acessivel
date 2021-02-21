@@ -56,11 +56,11 @@ body {
 /* Display números */
 @font-face {
      font-family: digital;
-     src: url("./digital-7.ttf") format("truetype");
+     src: url("../assets/fonts/digital-7.ttf") format("truetype");
 }
 
 .display {
-    height: 40%;
+    height: 60%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -91,6 +91,6 @@ hr {
     width: 98%;
     height: 0;
     border: 0;
-    border-top: solid 13px rgba(0,0,0,.85);
+    border-top: solid 10px rgba(0,0,0,.85);
     border-style: dashed;
 }
