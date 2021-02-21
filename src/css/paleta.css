@@ -5,6 +5,10 @@
     background-color: inherit;
 }
 
+button, select {
+    border-color: black;
+}
+
 select:focus, a:focus, button:focus {
     color: white;
     background-color: black;
