@@ -79,6 +79,10 @@ body {
     font-family: digital;
 }
 
+.display p {
+    font-size: 1.1rem;
+}
+
 .display h2 {
     font-size: 2.2rem;
 }
