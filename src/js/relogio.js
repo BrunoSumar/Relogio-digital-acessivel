@@ -11,13 +11,16 @@ var alterna_tempo = function () {
 	    return (dd(d.getHours()) + ":" + dd(d.getMinutes()) + ":" + dd(d.getSeconds()))
 	};
 	segundo = false;
+	e_segundo.innerHTML = "Ocultar segundos";
     } else {
 	tempo = function () { // Retorna o tempo sem segundos
 	    var d = new Date();
 	    return (dd(d.getHours()) + ":" + dd(d.getMinutes()))
 	}
 	segundo = true;
+	e_segundo.innerHTML = "Exibir segundos";
     };
+    relogio.innerHTML = tempo();
 };
 
 alterna_tempo(); // É preciso chamar uma vez para iniciar a variavel tempo
