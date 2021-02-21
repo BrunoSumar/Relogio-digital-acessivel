@@ -11,7 +11,7 @@ button, select {
     margin: 20px;
 }
 
-select:focus, a:focus, button:focus {
+select:focus, select:hover, a:focus, a:hover, button:focus, button:hover {
     outline: none;
     border-radius: 12px;
 }

@@ -18,11 +18,7 @@ git merge
 
 # Metas
 
-- Fuso horário
-- Estilizar a barra de navegação
-- Estilizar os botões
-- Estilizar os links
-- Estilizar os titulos
+- Consertar fundo select
 
 ## Acessibilidade
 
@@ -31,7 +27,7 @@ git merge
 - Destaque no keyboard focus
 - Links de navegação
 - Sequencial
-
-### TODO
 - Alto contraste
 - Drop-down acessivel via teclado
+
+### TODO

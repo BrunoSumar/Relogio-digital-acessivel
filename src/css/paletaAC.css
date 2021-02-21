@@ -5,7 +5,7 @@
     background-color: black;
 }
 
-select:focus, a:focus, button:focus {
+select:focus, select:hover, a:focus, a:hover, button:focus, button:hover {
     color: rgba(0,0,0,.85);
     background-color: yellow;
 }
