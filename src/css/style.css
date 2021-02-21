@@ -1,12 +1,11 @@
+/* Base de estilo do site */
+
 *{
     box-sizing: border-box;
-    color: rgba(0,0,0,.85);
     font-size: 1rem;
 }
 
 select:focus, a:focus, button:focus {
-    color: white;
-    background-color: black;
     outline: none;
     border-radius: 12px;
 }
@@ -78,7 +77,6 @@ body {
 }
 
 /* Configurações */
-
 .config {
     height: 50%;
     width: 100%;
@@ -91,6 +89,6 @@ hr {
     width: 98%;
     height: 0;
     border: 0;
-    border-top: solid 10px rgba(0,0,0,.85);
+    border-top: solid 10px;
     border-style: dashed;
 }

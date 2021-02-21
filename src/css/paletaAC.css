@@ -1,0 +1,25 @@
+/* Paleta de cores em alto contraste do site */
+
+* {
+    color: yellow;
+    background-color: black;
+}
+
+select:focus, a:focus, button:focus {
+    color: rgba(0,0,0,.85);
+    background-color: yellow;
+}
+
+a {
+    color: cyan;
+}
+
+hr {
+    border-top-color: yellow;
+}
+
+#menuNav #logo {
+    background: yellow;
+    border: solid;
+    border-radius: 50%;
+}

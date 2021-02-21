@@ -1,0 +1,15 @@
+/* Paleta de cores padrão do site */
+
+* {
+    color: rgba(0,0,0,.85);
+    background-color: inherit;
+}
+
+select:focus, a:focus, button:focus {
+    color: white;
+    background-color: black;
+}
+
+hr {
+    border-top-color: rgba(0,0,0,.85);
+}
