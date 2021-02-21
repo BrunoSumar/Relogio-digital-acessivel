@@ -14,17 +14,18 @@ const atualizaTempo = ()=>{
 }
 
 var alterna_tempo = function () {
-    if (segundo == true) {
+    if (segundo) {
         tempo = function (d) { // Retorna o tempo com segundos
             return (dd(d.getHours()) + ":" + dd(d.getMinutes()) + ":" + dd(d.getSeconds()))
         };
-        segundo = false;
+	    e_segundo.innerHTML = "Ocultar segundos";
     } else {
         tempo = function (d) { // Retorna o tempo sem segundos
             return (dd(d.getHours()) + ":" + dd(d.getMinutes()))
         }
-        segundo = true;
+	    e_segundo.innerHTML = "Exibir segundos";
     };
+    segundo = !segundo;
     atualizaTempo();
 };
 
