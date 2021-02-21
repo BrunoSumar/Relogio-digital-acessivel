@@ -5,6 +5,12 @@
     font-size: 1rem;
 }
 
+button, select {
+    border-style: solid;
+    border-radius: 10px;
+    margin: 20px;
+}
+
 select:focus, a:focus, button:focus {
     outline: none;
     border-radius: 12px;
