@@ -64,6 +64,7 @@ body {
 @font-face {
      font-family: digital;
      src: url("../assets/fonts/digital-7.ttf") format("truetype");
+     font-display: swap;
 }
 
 .display {
