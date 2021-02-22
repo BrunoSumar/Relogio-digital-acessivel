@@ -23,7 +23,7 @@ var alterna_tempo = function () {
         tempo = function (d) { // Retorna o tempo sem segundos
             return (dd(d.getHours()) + ":" + dd(d.getMinutes()))
         }
-	    e_segundo.innerHTML = "Exibir segundos";
+	    e_segundo.innerHTML = " Exibir  segundos ";
     };
     segundo = !segundo;
     atualizaTempo();
