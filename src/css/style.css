@@ -64,6 +64,7 @@ body {
 @font-face {
      font-family: digital;
      src: url("../assets/fonts/digital-7.ttf") format("truetype");
+     font-display: swap;
 }
 
 .display {
@@ -77,7 +78,7 @@ body {
 
 .display span {
     font-size: 7em;
-    font-family: digital;
+    font-family: digital, Arial;
 }
 
 .display p {
