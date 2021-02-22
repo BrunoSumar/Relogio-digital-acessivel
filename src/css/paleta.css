@@ -1,7 +1,6 @@
 /* Paleta de cores padrão do site */
 
 * {
-    color: rgba(0,0,0,.85);
     background-color: inherit;
 }
 
@@ -12,6 +11,10 @@ button, select {
 select:focus, select:hover, a:focus, a:hover, button:focus, button:hover {
     color: white;
     background-color: black;
+}
+
+a {
+    color: rgba(0,0,0,.85);
 }
 
 hr {
