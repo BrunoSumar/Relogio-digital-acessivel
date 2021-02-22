@@ -78,7 +78,7 @@ body {
 
 .display span {
     font-size: 7em;
-    font-family: digital;
+    font-family: digital, Arial;
 }
 
 .display p {
