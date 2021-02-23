@@ -1,13 +1,13 @@
-### Web app de relógio digital acessível.
+# Web app de relógio digital acessível.
 Exemplo de aplicação acessível para a disciplina interface humano-computador
 
 Link demo: https://brunosumar.github.io/Relogio-digital-acessivel/public/
 
-### Desenvolvimento e análise de aplicação web focados em acessibilidade 
+# Desenvolvimento e análise de aplicação web focados em acessibilidade 
 
 Alunos: Bruno Macedo, Bruno Sumar, Allan Martins.
 
-# Introdução
+## Introdução
 
 O termo acessibilidade web refere-se a prática inclusiva de desenvolver sites com um foco especial para que possa ser utilizado por todas as pessoas que tenham deficiência ou não, quando um website qualquer é corretamente projetado e desenvolvido pensando neste paradigma, todos os usuários podem idealmente ter igual acesso à informação e funcionalidade.
 
@@ -16,7 +16,7 @@ Diversas pessoas com dificuldades necessitam da acessibilidade na Web para reali
 Este projeto tem como objetivo analisar uma aplicação web simples, um relógio digital, de forma a evidenciar práticas que os desenvolvedores podem adotar em suas próprias aplicações web. Tornando então suas aplicações  mais inclusivas, diminuindo a barreira de acesso de pessoas com deficiências visuais, motoras, de idade avançada e etc.
 
 
-# Descrição da aplicação
+## Descrição da aplicação
 
 A aplicação web desenvolvida para a demonstração das opções de acessibilidade foi a de um relógio digital. Ela conta com três funcionalidades principais: relógio, cronômetro e temporizador. 
 
@@ -47,7 +47,7 @@ Garantimos que os botões, links e menus suspensos fossem grandes o suficiente, 
 
 Um espaçamento entre os elementos também foi muito importante pois garante uma maior segurança de que ao errar um elemento interativo não irá acidentalmente acertar outro, o que poderia ser muito frustrante.
 
-# Conclusão
+## Conclusão
 
 Tendo em vista que a página é simples e foi desenvolvida dentro de pouco tempo utilizando técnicas que não eram familiares para os desenvolvedores, chega-se à conclusão que quando pensado no início do processo de criação, a acessibilidade pode ser implementada de forma eficaz, melhorando a experiência dos usuários como um todo.
 
