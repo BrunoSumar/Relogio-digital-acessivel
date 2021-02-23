@@ -52,7 +52,7 @@ Um espaçamento entre os elementos também foi muito importante pois garante uma
 Tendo em vista que a página é simples e foi desenvolvida dentro de pouco tempo utilizando técnicas que não eram familiares para os desenvolvedores, chega-se à conclusão que quando pensado no início do processo de criação, a acessibilidade pode ser implementada de forma eficaz, melhorando a experiência dos usuários como um todo.
 
 
-Referências
+### Referências
 
 https://www.nngroup.com/reports/usability-guidelines-accessible-web-design/
 
