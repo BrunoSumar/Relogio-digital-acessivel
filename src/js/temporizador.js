@@ -28,6 +28,8 @@ for (var i = 0; i<= 60; i++) {
 start.addEventListener('click',function(){
 	minAtual = minutos.value;
 	segAtual = segundos.value;
+	if(minAtual + segAtual <= 0)
+		return;
 
 	display.childNodes[1].innerHTML = minAtual+":"+segAtual;
 
@@ -40,7 +42,7 @@ start.addEventListener('click',function(){
 				segAtual = 59;
 
 			}else{
-				alert("Acabou");
+				alert("Contagem chegou ao fim.");
 				clearInterval(interval);
 			}
 		}
