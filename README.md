@@ -60,6 +60,6 @@ https://www.nngroup.com/articles/accessible-design-for-users-with-disabilities/
 
 https://www.nngroup.com/articles/alternative-interfaces-for-accessibility/
 
-
+#### Fonte usada: DIGITAL-7 version 1.02
 
 
