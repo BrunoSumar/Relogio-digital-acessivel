@@ -77,7 +77,8 @@ body {
 }
 
 .display span {
-    font-size: 7em;
+    line-height: 7rem;
+    font-size: 7rem;
     font-family: digital, Arial;
 }
 
