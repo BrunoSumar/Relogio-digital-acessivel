@@ -9,19 +9,19 @@ var segundo = false; // Indica se esta mostrando os segundos ou não
 const atualizaTempo = ()=>{
     var d = new Date()
     relogio.innerHTML = tempo(d);
-    titulo.innerHTML = tempo(d) + " - Relógio acessível";
+    titulo.innerHTML = tempo(d, false) + " - Relógio acessível";
     data.innerHTML = d.getDate()+ " de " + meses[d.getMonth()] + " de " + d.getFullYear() + " (UTC+" + (d.getTimezoneOffset()/60).toFixed(0) + ")";
 }
 
 var alterna_tempo = function () {
     if (segundo) {
-        tempo = function (d) { // Retorna o tempo com segundos
-            return (dd(d.getHours()) + ":" + dd(d.getMinutes()) + ":" + dd(d.getSeconds()))
+        tempo = function (d, desc=true) { // Retorna o tempo com segundos
+            return (dd(d.getHours()) +(desc?apenasVoz(" horas"):'')+ ":" + dd(d.getMinutes()) +(desc?apenasVoz(" minutos"):'')+ ":" + dd(d.getSeconds()) +(desc?apenasVoz(" segundos"):''))
         };
 	    e_segundo.innerHTML = "Ocultar segundos";
     } else {
-        tempo = function (d) { // Retorna o tempo sem segundos
-            return (dd(d.getHours()) + ":" + dd(d.getMinutes()))
+        tempo = function (d, desc=true) { // Retorna o tempo sem segundos
+            return (dd(d.getHours()) +(desc?apenasVoz(" horas"):'')+ ":" + dd(d.getMinutes()) +(desc?apenasVoz(" minutos"):''))
         }
 	    e_segundo.innerHTML = " Exibir  segundos ";
     };
