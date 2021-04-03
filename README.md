@@ -25,12 +25,13 @@ A primeira e mais simples funcionalidade, o relógio, apenas exibe o horário, a
 A segunda funcionalidade, o cronômetro, por sua vez faz a contagem de um intervalo de tempo especificado pelo usuário e pode ser controlado por três botões: “Iniciar”, “Parar” e “Zerar”, que alternam de estado entre habilitado e desabilitado.
  
 A última funcionalidade, o temporizador, faz uma contagem regressiva e alerta o usuário quando ela chega ao fim, sendo o intervalo de tempo controlado por menus suspensos.
-Explicação das opções de acessibilidade
 
-Visão reduzida
+## Explicação das opções de acessibilidade
+
+# Visão reduzida
 Para que houvesse uma maior acessibilidade para pessoas com visão reduzida adicionamos em nossa página opções para que fosse possível tanto aumentar quanto diminuir o tamanho da fonte, de forma que fique mais fácil ler as informações. Para este mesmo público, foi adicionado um botão para alternar entre um modo de contraste que garante maior conforto e legibilidade à página. Estas duas funcionalidades são importantes pois permitem ao usuário customizar a página e escolher as opções que mais atendem às suas necessidades.
 
-Navegabilidade pelo teclado
+# Navegabilidade pelo teclado
 Para usuários com capacidades motoras reduzidas adaptamos o site para que fosse navegável pelo teclado de forma confortável, para isso adicionamos um grande destaque ao elemento sobre foco do teclado.
 
 Outra funcionalidade que ajuda usuários que navegam pelo teclado, foi a presença de links voltados à navegação da página, em todas as seções da página foram colocados links para voltar ao início, e no início existem links que levam a cada seção da página. Ìsso é especialmente útil para usuários que não possuem visão, pois desta forma não é preciso passar por todo o conteúdo da página para que se chegue no conteúdo desejado.
@@ -39,7 +40,7 @@ Também foi importante manter todos os elementos interativos da página disposto
 
 Alguns elementos interativos mais complicados continuam mantendo sua acessibilidade, como por exemplo o menu dropdown que pode ser alcançado através da tecla <TAB>, seu menu pode ser expandido através da tecla <ESPAÇO>, seus itens podem ser navegados utilizando as setas, e um item pode ser selecionado usando a tecla <ENTER>. 
 
-Minimizando o número de imagens
+# Minimizando o número de imagens
 Foi importante garantir o mínimo de elementos gráficos possíveis na página, pois eles acrescentam uma complexidade maior para usuários com deficiência visual, desta forma o único elemento gráfico que a página possui é um pequeno logo no início cuja propriedade alt tem a seguinte informação “Logo de relógio” informando de forma concisa o conteúdo do elemento. 
 
 Tamanho dos elementos interativos e espaçamento entre eles
